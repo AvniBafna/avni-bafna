@@ -41,9 +41,6 @@ export default function Home() {
             alt="Logo"
             className="w-15 h-15 object-cover transition-transform duration-300 group-hover:scale-105"
           />
-          <h1 className="text-pink-900 font-bold text-lg tracking-tight">
-            Avni Bafna
-          </h1>
         </Link>
         <div className="flex space-x-6 text-pink-900 text-sm font-medium">
           <Link
