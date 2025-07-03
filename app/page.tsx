@@ -112,7 +112,7 @@ export default function Home() {
       {/* About Section */}
       <section
         id="about"
-        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12"
+        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12 pt-20"
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto rounded-3xl p-4 md:p-8 shadow-md bg-white/50">
           {/* Text */}
