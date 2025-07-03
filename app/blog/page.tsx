@@ -27,7 +27,7 @@ export default function Blog() {
 
   const posts = [
     {
-      date: "11/11/2025",
+      date: "11/11/2024",
       title: "Leveraging AI to Improve Sustainability in Fashion",
       description:
         "Exploring how AI can reduce clothing waste and drive sustainability in the fashion industry through smarter consumption, upcycling, and optimized production.",
