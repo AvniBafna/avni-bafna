@@ -46,7 +46,7 @@ export default function ArticleLayout({
       }`}
     >
       {/* Navbar */}
-      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-pink-50 bg-opacity-80 backdrop-blur">
+      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-pink-50/80 backdrop-blur">
         <Link href="/" className="flex items-center space-x-2 group">
           <img
             src="/logo.png"
