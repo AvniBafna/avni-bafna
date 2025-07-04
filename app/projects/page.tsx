@@ -179,7 +179,7 @@ export default function Projects() {
                     href="tel:+15302312008"
                     className="underline decoration-pink-300 hover:text-pink-700"
                   >
-                    +1 (123) 456-7890
+                    +1 (530) 231-2008
                   </a>
                 </p>
                 <p className="text-pink-800">
