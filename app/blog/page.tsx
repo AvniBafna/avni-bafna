@@ -27,6 +27,15 @@ export default function Blog() {
 
   const posts = [
     {
+      date: "14/03/2025",
+      title:
+        "What Cognitive Science Has Taught Me About Building Better Products",
+      description:
+        "How understanding attention, memory, and decision-making from cognitive science can help us design products that truly align with how people think.",
+      image: "/design.jpeg",
+      link: "/blog/design",
+    },
+    {
       date: "11/11/2024",
       title: "Leveraging AI to Improve Sustainability in Fashion",
       description:
