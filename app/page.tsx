@@ -200,8 +200,8 @@ export default function Home() {
           <div className="relative border-l-2 border-pink-300 pl-6 space-y-8">
             {[
               {
-                date: "Jul 2025 – Oct 2025",
-                title: "Software Engineering Intern at Pantheon",
+                date: "Jul 2025 – Present",
+                title: "Software Engineer at Pantheon",
                 description: "",
               },
               {
