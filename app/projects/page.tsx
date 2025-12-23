@@ -132,9 +132,6 @@ export default function Projects() {
             alt="Logo"
             className="w-15 h-15 object-cover transition-transform duration-300 group-hover:scale-105"
           />
-          <h1 className="text-pink-900 font-bold text-lg tracking-tight">
-            Avni Bafna
-          </h1>
         </Link>
         <div className="flex space-x-6 text-pink-900 text-sm font-medium">
           <Link
@@ -182,7 +179,7 @@ export default function Projects() {
                     href="tel:+15302312008"
                     className="underline decoration-pink-300 hover:text-pink-700"
                   >
-                    +1 (123) 456-7890
+                    +1 (530) 231-2008
                   </a>
                 </p>
                 <p className="text-pink-800">

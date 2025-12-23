@@ -46,16 +46,13 @@ export default function ArticleLayout({
       }`}
     >
       {/* Navbar */}
-      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-pink-50 bg-opacity-80 backdrop-blur">
+      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-pink-50/80 backdrop-blur">
         <Link href="/" className="flex items-center space-x-2 group">
           <img
             src="/logo.png"
             alt="Logo"
             className="w-15 h-15 object-cover transition-transform duration-300 group-hover:scale-105"
           />
-          <h1 className="text-pink-900 font-bold text-lg tracking-tight">
-            Avni Bafna
-          </h1>
         </Link>
         <div className="flex space-x-6 text-pink-900 text-sm font-medium">
           <Link
@@ -104,7 +101,7 @@ export default function ArticleLayout({
                     href="tel:+15302312008"
                     className="underline decoration-pink-300 hover:text-pink-700"
                   >
-                    +1 (123) 456-7890
+                    +1 (530) 231-2008
                   </a>
                 </p>
                 <p className="text-pink-800">

@@ -6,7 +6,7 @@ export default function EthicsNeurotechnology() {
   return (
     <ArticleLayout
       title="Leveraging AI to Improve Sustainability in Fashion"
-      date="11/11/2025"
+      date="11/11/2024"
       image="/sustainability.jpg"
     >
       <p>
