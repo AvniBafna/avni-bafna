@@ -34,16 +34,16 @@ export default function Home() {
       }`}
     >
       {/* Navbar */}
-      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm">
+      <nav className="fixed top-0 z-50 w-full flex justify-between items-center px-6 md:px-20 py-4 shadow-sm bg-pink-50">
         <Link href="/" className="flex items-center space-x-2 group">
           <img
             src="/logo.png"
             alt="Logo"
             className="w-15 h-15 object-cover transition-transform duration-300 group-hover:scale-105"
           />
-          <h1 className="text-pink-900 font-bold text-lg tracking-tight">
+          {/* <h1 className="text-pink-900 font-bold text-lg tracking-tight">
             Avni Bafna
-          </h1>
+          </h1> */}
         </Link>
         <div className="flex space-x-6 text-pink-900 text-sm font-medium">
           <Link
@@ -115,7 +115,7 @@ export default function Home() {
       {/* About Section */}
       <section
         id="about"
-        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12"
+        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12 pt-24"
       >
         <div className="flex flex-col md:flex-row items-center justify-between w-full max-w-6xl mx-auto rounded-3xl p-4 md:p-8 shadow-md bg-white/50">
           {/* Text */}
@@ -193,7 +193,7 @@ export default function Home() {
       {/* Experience Section */}
       <section
         id="experience"
-        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12"
+        className="snap-start min-h-screen flex flex-col items-center justify-center w-full bg-pink-50 backdrop-blur-lg p-8 md:p-12 pt-24"
       >
         <div className="flex flex-col md:flex-row items-center justify-center md:space-x-10 w-full max-w-6xl mx-auto rounded-3xl p-4 md:p-8 shadow-md bg-white/50">
           <h2 className="text-3xl md:text-4xl font-extrabold text-pink-900 tracking-tight font-serif mb-8 md:mb-0 text-center md:min-w-[200px]">
@@ -203,8 +203,8 @@ export default function Home() {
           <div className="relative border-l-2 border-pink-300 pl-6 space-y-8">
             {[
               {
-                date: "Jul 2025 – Oct 2025",
-                title: "Software Engineering Intern at Pantheon",
+                date: "Jul 2025 – Present",
+                title: "Software Engineer at Pantheon",
                 description: "",
               },
               {
